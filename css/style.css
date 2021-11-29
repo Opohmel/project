@@ -1,0 +1,54 @@
+/* селектор {
+    свойство: значение;
+    свойство: значение;
+    свойство: значение;
+}
+ */
+
+body {
+    background-color:rgb(255, 255, 224);
+}
+h1 {
+    color:red;
+    text-align: center;
+    font-size: large;
+}
+h2 {
+    text-align: center;
+    color:red;
+}
+.box {
+    vertical-align: middle; /* работает только при включенном display: inline-block */
+    display: inline-block;
+    box-sizing:border-box;
+    width: 300px; 
+    height: 300px;
+    background-color: brown;
+    padding: 50px 50px 50px 60px;
+    margin: 30px 30px 30px 30px;
+    border: 10px solid black;
+    
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+}
+nav {
+    color: brown;
+    position: fixed;
+    
+    /* bottom: 20px; */
+    /* left: 140px; */
+}
+.red {
+    width: 25vw;
+    height: 25vh;
+    font-size: 10px;
+    background-color: red;
+    
+}
+
+.id { /* первая часть */
+    margin-top: 40px;
+}
